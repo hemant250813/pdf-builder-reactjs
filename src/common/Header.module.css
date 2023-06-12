@@ -1,0 +1,45 @@
+.conneqt_logo {
+  float: left;
+  width: 50%;
+  padding-left: 5px;
+  color: #0a98d9;
+  font-style: italic;
+}
+
+.skills_text {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .skills_text {
+    float: right;
+    text-align: right;
+    padding: 0px 70px 0px 0px;
+  }
+
+  .clearfix {
+  padding: 10px 0px 10px 70px;
+}
+}
+
+
+
+.digital_logo {
+  color: orange;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  padding: 10px 0px 10px 8px;
+  box-shadow: 0 2px 4px 0 #f1eeee;
+}
+
+.bg {
+  background-color: white;
+}
+
+
